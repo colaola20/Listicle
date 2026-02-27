@@ -1,6 +1,6 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - *Hiddden Travel Gems*
 
-Submitted by: **Your name here**
+Submitted by: **Olha Sorych**
 
 About this web app: **App description here**
 
@@ -11,8 +11,8 @@ Time spent: **X** hours
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
+- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [x] **The web app displays a title**
 - [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
 - [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
   - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
