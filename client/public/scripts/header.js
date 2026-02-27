@@ -16,6 +16,7 @@ headerLeft.appendChild(headerLogo)
 headerLeft.appendChild(headerTitle)
 
 const headerRight = document.createElement('div')
+headerRight.className = "header-right"
 
 const homeBtn = document.createElement('button')
 homeBtn.textContent = 'Home'
