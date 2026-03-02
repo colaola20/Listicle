@@ -9,10 +9,14 @@ const renderTrips = async () => {
 
         data.map(trip => {
             const card = document.createElement('div')
-            card.classList.add('card')
+            card.classList.add('gem-card')
 
             const topContainer = document.createElement('div')
             topContainer.classList.add('top-container')
+
+            // const bgImage = document.createElement('img')
+            // bgImage.src = trip.imageURL
+            // topContainer.appendChild(bgImage)
             topContainer.style.backgroundImage = `url(${trip.imageURL})`
 
             const bottomContainer = document.createElement('div')
@@ -21,6 +25,11 @@ const renderTrips = async () => {
             const locationName = document.createElement('h3')
             locationName.textContent = trip.locationName
             bottomContainer.appendChild(locationName)
+
+            const countryInfo = document.createElement('h5')
+            countryInfo.textContent = `Country: ${trip.country}`
+            bottomContainer.appendChild(countryInfo)
+
             const tripDescription = document.createElement('p')
             tripDescription.textContent = trip.description
             bottomContainer.appendChild(tripDescription)
