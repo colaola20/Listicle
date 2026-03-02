@@ -5,7 +5,7 @@ const tripData = [
     "country": "Japan / Kitakyushu",
     "type": "Park",
     "description": "A beautiful tunnel covered in cascading wisteria flowers that bloom in late spring.",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Wisteria_Tunnel.jpg",
+    "imageURL": "https://www.japan-guide.com/g20/4881_01.jpg",
     "tip": "Visit in April-May for full bloom and arrive early to avoid crowds.",
     "submittedBy": "Olha Sorych"
   },

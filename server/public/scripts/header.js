@@ -7,7 +7,7 @@ const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerLogo = document.createElement('img')
-headerLogo.src = '/public/trips-app-logo-transperend.webp'
+headerLogo.src = '/trips-app-logo-transperend.webp'
 
 const headerTitle = document.createElement('h1')
 headerTitle.textContent = 'Hidden Travel Gems'

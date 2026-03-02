@@ -1,4 +1,4 @@
-const renderTrips = async () => {
+const renderGifts = async () => {
     const response = await fetch('/trips')
     console.log(response)
     const data = await response.json()
@@ -38,4 +38,4 @@ const renderTrips = async () => {
 }
 
 
-renderTrips()
+renderGifts()
