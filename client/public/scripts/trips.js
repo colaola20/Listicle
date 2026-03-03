@@ -1,8 +1,6 @@
 const renderTrips = async () => {
     const response = await fetch('/trips')
-    console.log(response)
     const data = await response.json()
-    console.log(data)
 
     const mainContent = document.getElementById('main-content')
     if (data) {
@@ -14,9 +12,6 @@ const renderTrips = async () => {
             const topContainer = document.createElement('div')
             topContainer.classList.add('top-container')
 
-            // const bgImage = document.createElement('img')
-            // bgImage.src = trip.imageURL
-            // topContainer.appendChild(bgImage)
             topContainer.style.backgroundImage = `url(${trip.imageURL})`
 
             const bottomContainer = document.createElement('div')
