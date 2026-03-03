@@ -9,7 +9,7 @@ const renderTrips = async () => {
 
         data.map(trip => {
             const card = document.createElement('div')
-            card.classList.add('gem-card')
+            card.classList.add('card')
 
             const topContainer = document.createElement('div')
             topContainer.classList.add('top-container')

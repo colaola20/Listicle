@@ -47,7 +47,7 @@ p {
 
 main {
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 0;
   padding: 0 1.5rem;
 }
 
@@ -56,8 +56,10 @@ main {
 ========================= */
 
 header {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 10vh;
+  height: 5rem;
   background: linear-gradient(
     135deg,
     #1e88e5 0%,
@@ -68,15 +70,19 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .header-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header-left {
@@ -90,10 +96,11 @@ header {
 }
 
 .header-left h1 {
-  color: var(--text-light);
+  color: var(--text-light) important!;
   font-size: 1.6rem;
   letter-spacing: 0.5px;
 }
+
 
 .header-right button {
   background: var(--text-light);
@@ -121,9 +128,10 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  margin: 0 auto;
 }
 
-.gem-card {
+.card {
   background: var(--card-bg);
   border-radius: var(--border-radius);
   overflow: hidden;
@@ -133,7 +141,7 @@ header {
   flex-direction: column;
 }
 
-.gem-card:hover {
+.card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
 }
@@ -168,6 +176,7 @@ header {
   padding: 0.5rem 0;
   border-radius: 8px;
   margin-top: 1rem;
+  color: black;
 }
 
 /* =========================
@@ -198,7 +207,7 @@ button:hover {
 .main-container {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: calc(100vh - 5rem);
   min-height: 400px;
   overflow: hidden;
   margin-bottom: 3rem;
@@ -238,17 +247,19 @@ button:hover {
   bottom: 2rem;
   left: 2rem;
   color: white;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .hero-content h2 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .hero-content p {
   font-size: 1rem;
   opacity: 0.9;
+  color: white;
 }
 
 /* =========================
