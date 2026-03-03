@@ -34,7 +34,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-https://github.com/user-attachments/assets/0444b2b1-9daf-45aa-8f41-6e6621b0a1fa
+https://github.com/user-attachments/assets/81a6cc9d-fb33-4949-b032-ab32a1b2c9e9
+
 
 
 <!-- Replace this with whatever GIF tool you used! -->
