@@ -14,8 +14,9 @@ const renderTrip = async () => {
     if (trip) {
         document.getElementById('image').src = trip.imageURL
         document.getElementById('name').textContent = trip.locationName
-        document.getElementById('submittedBy').textContent = trip.submittedBy
-        document.getElementById('type').textContent = trip.type
+        document.getElementById('location').textContent = trip.country
+        document.getElementById('submittedBy').textContent = `Submitted by: ${trip.submittedBy}`
+        document.getElementById('type').textContent = `Type: ${trip.type}`
         document.getElementById('description').textContent = trip.description
         document.getElementById('tip').textContent = `Tip: ${trip.tip}`
     } else {

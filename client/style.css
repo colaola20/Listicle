@@ -262,6 +262,11 @@ button:hover {
   color: white;
 }
 
+.fof-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* =========================
    Responsive
 ========================= */
