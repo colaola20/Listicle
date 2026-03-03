@@ -34,6 +34,13 @@ const renderTrips = async () => {
             tripDescription.textContent = trip.description
             bottomContainer.appendChild(tripDescription)
 
+            const readMore = document.createElement('button')
+            readMore.textContent = "ReadMore"
+            readMore.addEventListener('click', () => {
+                window.location = `/trips/${trip.id}`
+            })
+            bottomContainer.appendChild(readMore)
+
             card.appendChild(topContainer)
             card.appendChild(bottomContainer)
 

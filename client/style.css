@@ -184,11 +184,11 @@ header {
 ========================= */
 
 button {
-  border-radius: 50px;
+  border-radius: 20px;
   border: none;
-  padding: 0.6em 1.4em;
-  font-size: 0.95rem;
-  font-weight: 600;
+  padding: 0.4em 1.4em;
+  font-size: 0.8rem;
+  font-weight: 400;
   cursor: pointer;
   background: var(--primary);
   color: white;
