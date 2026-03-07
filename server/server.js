@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import cors from 'cors'
 import tripsRouter from './routes/trips.js'
 
