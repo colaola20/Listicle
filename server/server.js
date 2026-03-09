@@ -6,7 +6,7 @@ import tripsRouter from './routes/trips.js'
 const app = express()
 
 app.use(cors())
-
+console.log("loading trips router")
 app.use('/trips', tripsRouter)
 
 app.use('/public', express.static('./public'))

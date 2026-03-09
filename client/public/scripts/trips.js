@@ -12,13 +12,13 @@ const renderTrips = async () => {
             const topContainer = document.createElement('div')
             topContainer.classList.add('top-container')
 
-            topContainer.style.backgroundImage = `url(${trip.imageURL})`
+            topContainer.style.backgroundImage = `url(${trip.imageurl})`
 
             const bottomContainer = document.createElement('div')
             bottomContainer.classList.add('bottom-container')
 
             const locationName = document.createElement('h3')
-            locationName.textContent = trip.locationName
+            locationName.textContent = trip.locationname
             bottomContainer.appendChild(locationName)
 
             const countryInfo = document.createElement('h5')
