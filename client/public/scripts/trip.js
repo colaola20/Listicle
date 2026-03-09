@@ -12,8 +12,8 @@ const renderTrip = async () => {
         trip = data.find(trip => trip.id === requestedId)
     }
     if (trip) {
-        document.getElementById('image').src = trip.imageURL
-        document.getElementById('name').textContent = trip.locationName
+        document.getElementById('image').src = trip.imageurl
+        document.getElementById('name').textContent = trip.locationname
         document.getElementById('location').textContent = trip.country
         document.getElementById('submittedBy').textContent = `Submitted by: ${trip.submittedBy}`
         document.getElementById('type').textContent = `Type: ${trip.type}`
